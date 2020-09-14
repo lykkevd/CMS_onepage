@@ -98,7 +98,12 @@ div.desc {
   margin-top: 200px;
 }
 
+.third-video iframe{
+  margin-top: 40px;
+}
+
 #fakta_cirkel img{
+  margin-top: 20px;
   height: 700px;
 }
 
