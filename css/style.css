@@ -6,22 +6,23 @@ body {
 }
 
 .header-text {
+  color: #F7F4EF;
   position: absolute;
   top: 8px;
   left: 16px;
 }
 
 h1 {
+  font-family: 'Roboto Mono', monospace;
   font-weight: bold;
   font-size: 100px;
-  color: black;
   margin-left: 90px;
   margin-bottom: -5px;
 }
 
 h2 {
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
-  color: black;
   margin-left: 90px;
 }
 
@@ -40,7 +41,7 @@ iframe {
 div.facts {
   background-color: #ececec;
   margin-top: 70px;
-  margin-bottom: 200px;
+  margin-bottom: 180px;
   float: left;
   width: 260px;
   height: 430px;
@@ -60,14 +61,17 @@ div.facts img {
 }
 
 div.desc {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 15px;
   text-align: center;
-  line-height: 20px;
+  font-weight: bold;
+  line-height: 30px;
   color: #bd5b7e;
 }
 
 .second-video iframe{
-  margin-bottom: 70px;
+  margin-bottom: 120px;
+  margin-top: 150px;
 }
 
 #first {
@@ -87,6 +91,7 @@ div.desc {
 }
 
 #first h2 {
+  font-family: 'Roboto Mono', monospace;
   text-align: left;
   color: black;
   font-size: 30px;
@@ -94,6 +99,8 @@ div.desc {
 }
 
 #second h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
   text-align: right;
   text-anchor: end;
   color: #ff3a20;
@@ -103,7 +110,8 @@ div.desc {
 }
 
 .third-video iframe{
-  margin-top: 70px;
+  margin-top: 90px;
+  margin-bottom: 70px;
 }
 
 #fakta_cirkel img{
@@ -113,29 +121,20 @@ div.desc {
 }
 
 .info-text {
+  position: absolute;
   margin-left: 120px;
-  margin-right: 120px;
-  padding: 30px;
+  margin-right: 140px;
+  padding: 50px;
   text-align: inherit;
 }
 
 .info-text h1{
-font-size: 60px;
-margin-bottom: 30px;
+  color: #ff3a20;
+  font-size: 60px;
+  margin-bottom: 30px;
 }
 
 .info-text h2 {
   font-size: 20px;
-}
-
-.grey-footer {
-  height: 200px;
-  background-color:#ececec;
-  padding-top: 70px;
-  margin-top: 70px;
-}
-
-.grey-footer h2{
-  text-align: center;
-  color: #656565;
+  line-height: 40px;
 }
