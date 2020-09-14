@@ -98,6 +98,10 @@ div.desc {
   margin-top: 200px;
 }
 
+#fakta_cirkel img{
+  height: 700px;
+}
+
 .grey-footer {
   height: 200px;
   background-color:#ececec;
