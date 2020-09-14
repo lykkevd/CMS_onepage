@@ -42,8 +42,8 @@ div.facts {
   margin-top: 70px;
   margin-bottom: 200px;
   float: left;
-  width: 250px;
-  height: 400px;
+  width: 260px;
+  height: 430px;
   text-align: center;
   -webkit-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.4);
 -moz-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.4);
@@ -56,7 +56,7 @@ div.facts:hover {
 
 div.facts img {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 div.desc {
@@ -64,6 +64,10 @@ div.desc {
   text-align: center;
   line-height: 20px;
   color: #bd5b7e;
+}
+
+.second-video iframe{
+  margin-bottom: 70px;
 }
 
 #first {
@@ -99,12 +103,29 @@ div.desc {
 }
 
 .third-video iframe{
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 #fakta_cirkel img{
   margin-top: 20px;
   height: 700px;
+  margin-left: -80px;
+}
+
+.info-text {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 30px;
+  text-align: inherit;
+}
+
+.info-text h1{
+font-size: 60px;
+margin-bottom: 30px;
+}
+
+.info-text h2 {
+  font-size: 20px;
 }
 
 .grey-footer {
