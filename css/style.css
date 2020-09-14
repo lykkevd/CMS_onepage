@@ -1,38 +1,110 @@
 body {
-    background-color: #F7F4EF;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 90px 90px 0px 90px;
+  background-color: #F7F4EF;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+.header-text {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 h1 {
-    font-weight: bold;
-    font-size: 100px;
+  font-weight: bold;
+  font-size: 100px;
+  color: black;
+  margin-left: 90px;
+  margin-bottom: -5px;
 }
 
 h2 {
-    font-weight: 400;
+  font-weight: 400;
+  color: black;
+  margin-left: 90px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+#container_fact_boxes {
+  justify-content: space-evenly;
+  display: flex;
+  margin: 0 auto;
 }
 
 div.facts {
-    background-color: #ececec;
-    margin: 10px;
-    float: left;
-    width: 240px;
-    height: 334px;
-    -webkit-box-shadow: 0px 11px 23px -6px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 11px 23px -6px rgba(0,0,0,0.3);
-    box-shadow: 0px 11px 23px -6px rgba(0,0,0,0.3);
-  }
-  
-  div.facts:hover {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-  }
+  background-color: #ececec;
+  margin-top: 70px;
+  margin-bottom: 200px;
+  float: left;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  -webkit-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.4);
+box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.4);
+}
 
-  div.facts img {
-      text-align: center;
-  }
+div.facts:hover {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
 
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+div.facts img {
+  text-align: center;
+  padding-top: 40px;
+}
+
+div.desc {
+  margin: 15px;
+  text-align: center;
+  line-height: 30px;
+  color: #bd5b7e;
+}
+
+#first {
+  width: 30%;
+  float: left;
+  height: 900px;
+  background-color: #ececec;
+}
+#second {
+  width: 70%;
+  float: left;
+  height: 900px;
+  background-color: #ececec;
+}
+#clear {
+  clear: both;
+}
+
+#first h2 {
+  text-align: left;
+  color: black;
+  font-size: 30px;
+  margin-top: 230px;
+}
+
+#second h1 {
+  text-align: right;
+  text-anchor: end;
+  color: #ff3a20;
+  font-size: 130px;
+  margin-right: 50px;
+  margin-top: 200px;
+}
+
+.grey-footer {
+  height: 200px;
+  background-color:#ececec;
+  padding-top: 70px;
+  margin-top: 70px;
+}
+
+.grey-footer h2{
+  text-align: center;
+  color: #656565;
+}
